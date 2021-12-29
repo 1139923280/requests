@@ -70,3 +70,4 @@ while b < 10:
     # b += b
     print(b)
     a, b = b, a + b
+
