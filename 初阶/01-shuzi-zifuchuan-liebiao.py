@@ -30,7 +30,7 @@ print(17 / 9)
 # 字符串
 print('spam eggs', '单引号')
 print("spam eggs", '双引号')
-print('doesn\'t', '转义')  # 特殊字符会用反斜杠转义
+print('doesn\'t', '转义')  # 特殊字符'会用反斜杠转义,就是将' 转换为普通字符，以供输出到屏幕上
 print('C:\some\name')  # 有 \ 的字符被当作特殊字符(\n 换行)时、可以在第一个引号前面加上一个 r:
 print(r'C:\some\name')
 print('''Usage: thingy [OPTIONS] 
